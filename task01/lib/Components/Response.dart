@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 class Response extends StatelessWidget {
   final IconData icon;
   final Color couleur;
-  Response({this.icon, this.couleur});
+  final Function() action;
+  Response({this.icon, this.couleur, this.action});
   Widget build(BuildContext context) {
     return Container(
       width: 50,
@@ -13,7 +14,7 @@ class Response extends StatelessWidget {
         borderRadius: BorderRadius.circular(8.0),
       ),
       child: IconButton(
-        onPressed: () {},
+        onPressed: action,
         icon: Icon(
           icon,
           color: couleur,

@@ -257,7 +257,7 @@ class _ScreenDetailState extends State<ScreenDetail> {
                     bottom: 15.0,
                   ),
                   child: Text(
-                    "Commentaires (${widget.walk.comments.length})",
+                    "Commentaires (${1})",
                     style: TextStyle(
                       fontFamily: "Poppins",
                       fontSize: 16,

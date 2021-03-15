@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task01/src/ScreenDetail.dart';
+import 'package:task01/src/screen_detail.dart';
 import 'package:task01/walk.dart';
 
 void main() {

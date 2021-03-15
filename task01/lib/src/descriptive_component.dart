@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:task01/Models/Descriptif.dart';
+import 'package:task01/Models/descriptive.dart';
 
-class DescriptifComponent extends StatelessWidget {
+class DescriptiveComponent extends StatelessWidget {
   final Descriptif descriptif;
-  DescriptifComponent({this.descriptif});
+  DescriptiveComponent({this.descriptif});
 
   TextStyle styleText() {
     return TextStyle(

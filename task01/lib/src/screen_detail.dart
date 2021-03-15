@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:sliding_card/sliding_card.dart';
-import 'package:task01/src/AddPhotoComponent.dart';
-import 'package:task01/src/CommentRating.dart';
-import 'package:task01/Components/AboutUser.dart';
-import 'package:task01/Components/ButtonComponent.dart';
-import 'package:task01/Components/CommentComponent.dart';
-import 'package:task01/Components/MyAppBar.dart';
-import 'package:task01/Components/QuestionComponent.dart';
-import 'package:task01/src/DescriptifComponent.dart';
-import 'package:task01/src/InformationTitle.dart';
-import 'package:task01/Models/Descriptif.dart';
-import 'package:task01/src/NoteCard.dart';
-import 'package:task01/src/NoteDifficulte.dart';
-import 'package:task01/src/Options.dart';
-import 'package:task01/src/UserComponent.dart';
+import 'package:task01/src/add_photo_component.dart';
+import 'package:task01/src/comment_rating.dart';
+import 'package:task01/Components/about_user.dart';
+import 'package:task01/Components/button_component.dart';
+import 'package:task01/Components/comment_component.dart';
+import 'package:task01/Components/my_app_bar.dart';
+import 'package:task01/Components/question_component.dart';
+import 'package:task01/src/descriptive_component.dart';
+import 'package:task01/src/information_title.dart';
+import 'package:task01/Models/descriptive.dart';
+import 'package:task01/src/note_card.dart';
+import 'package:task01/src/note_difficulte.dart';
+import 'package:task01/src/options.dart';
+import 'package:task01/src/user_component.dart';
 import 'package:task01/walk.dart';
 
 class ScreenDetail extends StatefulWidget {
@@ -83,7 +83,7 @@ class _ScreenDetailState extends State<ScreenDetail> {
                     right: paddingRight,
                     bottom: 14.0,
                   ),
-                  child: DescriptifComponent(
+                  child: DescriptiveComponent(
                     descriptif: Descriptif(
                       elevationGain: 131,
                       elevationLoss: 121,

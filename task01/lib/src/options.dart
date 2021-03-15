@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:task01/Components/CircleIcone.dart';
+import 'package:task01/Components/circle_icone.dart';
 
 class Options extends StatelessWidget {
   final String image;

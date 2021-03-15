@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:task01/Components/Response.dart';
+import 'package:task01/Components/response.dart';
 
 class QuestionComponent extends StatelessWidget {
   Widget build(BuildContext context) {
